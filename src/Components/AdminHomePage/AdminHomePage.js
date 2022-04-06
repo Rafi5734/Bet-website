@@ -22,7 +22,7 @@ import Accordion from "@material-ui/core/Accordion";
 import AccordionSummary from "@material-ui/core/AccordionSummary";
 import AccordionDetails from "@material-ui/core/AccordionDetails";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import { Link } from "@material-ui/core";
+import { Link } from "react-router-dom";
 
 const drawerWidth = 240;
 
@@ -287,6 +287,7 @@ const AdminHomePage = () => {
               <Typography className={classes.heading}>Matches</Typography>
             </AccordionSummary>
             <AccordionDetails>
+<<<<<<< HEAD
              <Link to="/createMatch">Create Match</Link>
             </AccordionDetails>
             <AccordionDetails>
@@ -294,6 +295,15 @@ const AdminHomePage = () => {
             </AccordionDetails>
             <AccordionDetails>
              <Link>Football</Link>
+=======
+              <Link to="">Matches Create</Link>
+            </AccordionDetails>
+            <AccordionDetails>
+              <Link to="/cricket">Cricket</Link>
+            </AccordionDetails>
+            <AccordionDetails>
+              <Link to="">Football</Link>
+>>>>>>> 365fe52f1df878f52ae6fcb76bf71a5a138e88fd
             </AccordionDetails>
           </Accordion>
           <Accordion>
