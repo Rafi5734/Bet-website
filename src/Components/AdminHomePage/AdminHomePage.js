@@ -294,8 +294,6 @@ const AdminHomePage = () => {
             </AccordionDetails>
             <AccordionDetails>
              <Link>Football</Link>
-<<<<<<< HEAD
-=======
               <Link to="">Matches Create</Link>
             </AccordionDetails>
             <AccordionDetails>
@@ -303,7 +301,6 @@ const AdminHomePage = () => {
             </AccordionDetails>
             <AccordionDetails>
               <Link to="">Football</Link>
->>>>>>> 52c92da2fb70a6115f84ba8153e1d849cdf05e44
             </AccordionDetails>
           </Accordion>
           <Accordion>
