@@ -12,7 +12,7 @@ function App() {
           <h1>Hello, React Router!</h1>
           <Routes>
             <Route path="/" element={<AdminHomePage />} />
-            <Route path="/createMatch" element={<MatchCreats></MatchCreats>} />
+            <Route path="createMatch" element={<MatchCreats />} />
             <Route path="cricket" element={<Cricket />} />
           </Routes>
         </div>
