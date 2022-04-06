@@ -287,7 +287,6 @@ const AdminHomePage = () => {
               <Typography className={classes.heading}>Matches</Typography>
             </AccordionSummary>
             <AccordionDetails>
-<<<<<<< HEAD
              <Link to="/createMatch">Create Match</Link>
             </AccordionDetails>
             <AccordionDetails>
@@ -295,15 +294,6 @@ const AdminHomePage = () => {
             </AccordionDetails>
             <AccordionDetails>
              <Link>Football</Link>
-=======
-              <Link to="">Matches Create</Link>
-            </AccordionDetails>
-            <AccordionDetails>
-              <Link to="/cricket">Cricket</Link>
-            </AccordionDetails>
-            <AccordionDetails>
-              <Link to="">Football</Link>
->>>>>>> 365fe52f1df878f52ae6fcb76bf71a5a138e88fd
             </AccordionDetails>
           </Accordion>
           <Accordion>
